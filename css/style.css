@@ -1,0 +1,176 @@
+/******** Body CSS Styling ***********/
+body{
+    margin: 0px;
+    background: rgb(236,236,236);
+}
+
+/************ Header CSS ************/
+.header{
+    background: rgba(163,31,52,0.98);
+    height: 50px;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    padding: 0px;
+}
+
+.header ul{
+    padding: 8px;
+    margin: 0px;
+}
+
+.header li{
+    list-style: none;
+    display: inline;
+    padding-right: 100px;
+    padding-left: 75px;
+    
+}
+
+.header a:hover{
+    text-shadow: 0 0 15px white;
+}
+
+.header a{
+    text-decoration: none;
+    text-align: center;
+    color: #f7f9f9;
+    font-size: 28px;
+    font-family: 'Lato', sans-seri;
+    padding-top: 3px;
+}
+
+/* Banner CSS Styling */
+.banner{
+    background: url('../img/miti.jpg');
+    height: 420px;
+    margin-bottom:20px; 
+}
+
+
+.profile-pic h1{
+    font-size: 42px;
+    font-family: 'Lato', sans-seri;
+    padding-left: 25px;
+    padding-top:360px;
+    margin:0px;
+    color: #f7f9f9;
+    letter-spacing: 3px;
+    text-shadow: 1px 4px 10px black;
+    
+}
+
+.banner img{
+    height: 270px;
+    float: right;
+    padding-top: 80px;
+    
+}
+
+/* Spotlight, News and Events CSS Styling */
+#spotlight{
+    background: url('../img/mit_spotlight.jpg');
+    height: 352px;
+    margin-left: 0px;
+}
+
+#text_spotlight{
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-size: 14px;
+    padding: 5px;
+    color: white;
+    background: rgba(54, 58, 58,0.8);
+}
+
+#news-events {
+        margin-left: 20px;
+        line-height: 15px;
+        background: rgba(163,31,52,0.98);
+        font-family: sans-serif;
+        font-size: 14px;
+        color: white;
+}
+
+#news-events b{
+    color: #dce0e8;
+}
+
+#news,#events{
+    padding:5px 10px; 
+}
+
+/********** Programs CSS Styling *********/
+.program-head{
+    color: rgba(163,31,52,0.98);
+    font-family: 'Lato', sans-seri;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+.program img{
+    padding-top: 20px;
+}
+
+.program{
+    font-family: 'Lato', sans-seri;
+    letter-spacing: 2px;
+    background: rgba(163,31,52,0.98);
+    color: white;
+    margin-left: 8px;
+    text-align: center;
+}
+
+.program a{
+    color: white;
+    text-decoration: none;
+}
+
+/********** About CSS Styling *********/
+#about{
+    padding: 20px 5px;
+}
+
+#about h1,#about p{
+    color: rgba(163,31,52,0.98);
+    font-family: 'Lato', sans-seri;
+    line-height: 1.8;
+    text-align: center;
+    }
+
+#about p{
+    font-size: 20px;
+}
+
+/********* Footer CSS Styling *********/
+footer{
+    background: rgb(31,31,31);
+    font-family: 'Lato', sans-seri;   
+    color: white; 
+}
+
+footer li{
+    list-style: none;
+    margin-top: 30px;
+}
+
+footer h2,h3{
+    margin: 30px 50px;
+}
+
+footer #social-net li{
+    display: inline;
+    margin-left: 0;
+    padding: 10px 10px;
+    
+}
+
+footer #social-net li i{
+    color: white;   
+    text-align: center;
+    padding-top: 10px;
+    height: 55px;
+    width: 60px;
+    border: 2px ridge white;
+    border-radius: 50%;
+}
